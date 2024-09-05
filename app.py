@@ -4,7 +4,7 @@ import pandas as pd
 import plotly_express as px
 
 #Se importa el DataFrame necesario
-car_data = pd.read_csv("C:/Users/dicop/Desktop/Data/Data/Data/Data_Scientist/Sprint_6/Proyecto 6/vehicles_us.csv")
+car_data = pd.read_csv("vehicles_us.csv")
 
 #Titulo de la pagina web
 st.header("Comparacion de vehiculos usados por kilometraje")
